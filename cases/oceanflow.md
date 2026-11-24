@@ -4,7 +4,7 @@
 
 ![Frame de abertura do vídeo OceanFlow: do primeiro oi à matrícula](../assets/oceanflow-video-still.jpg)
 
-*Frame do vídeo de apresentação produzido por mim em 2026. O arquivo completo será vinculado quando estiver publicado em um canal aberto.*
+*Frame do vídeo de apresentação produzido por mim em 2026.*
 
 ## Contexto e minha atuação
 
