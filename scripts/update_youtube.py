@@ -18,8 +18,12 @@ README = Path(__file__).resolve().parents[1] / "README.md"
 
 def videos_from_feed(payload: bytes) -> list[str]:
     root = ElementTree.fromstring(payload)
-    if root.findtext(f"{YT}channelId") != CHANNEL_ID:
-        raise ValueError("O feed não corresponde ao canal Rescue Point")
+    feed_channel = root.findtext(f"{YT}channelId")
+    if feed_channel != CHANNEL_ID:
+        raise ValueError(
+            f"Feed inesperado: raiz={root.tag!r}, canal={feed_channel!r}, "
+            f"esperado={CHANNEL_ID!r}"
+        )
 
     entries = []
     for entry in root.findall(f"{ATOM}entry"):
