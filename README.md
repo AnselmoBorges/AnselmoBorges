@@ -6,17 +6,48 @@
 
 # Anselmo Borges
 
-**Staff Data Engineer** com mais de 15 anos entre engenharia de dados e infraestrutura. Transformo plataformas complexas em produtos de dados governados, eficientes e utilizáveis por pessoas e agentes de IA.
+**Staff Data Engineer** com mais de 15 anos entre engenharia de dados e infraestrutura. Transformo plataformas complexas em produtos de dados governados, eficientes e utilizáveis por pessoas e agentes de IA. Em 2026, levei essa experiência para dois produtos próprios em produção: OceanFlow e DiarIA.
 
 *Data platforms, governance, FinOps and AI agents — from architecture to production.*
 
-[**Projetos**](#projetos-em-destaque) · [**Rescue Point**](#rescue-point--ensino-aberto) · [**Experiência**](#experiência) · [**Contato**](#vamos-conversar)
+[**Produtos próprios**](#produtos-próprios-em-produção--2026) · [**Projetos**](#projetos-em-destaque) · [**Rescue Point**](#rescue-point--ensino-aberto) · [**Experiência**](#experiência) · [**Contato**](#vamos-conversar)
 
 ## O que eu entrego
 
 | Plataforma de dados | Engenharia para produção | IA aplicada |
 | :--- | :--- | :--- |
 | Lakehouse, Azure Databricks, Unity Catalog, integração de fontes e governança. | Spark, dbt, CI/CD, observabilidade, performance e FinOps. | Agentes com MCP, RAG e tool calling sobre dados e sistemas corporativos. |
+
+## Produtos próprios em produção · 2026
+
+Nos projetos abaixo, trabalhei também como **dono do problema**: construí os sistemas, coloquei-os em produção e uso seus dados para melhorar a operação.
+
+### OceanFlow Platform · da experiência no tatame a um produto para academias
+
+Nos últimos **sete meses**, desenvolvi a [OceanFlow Platform](https://oceanflow.platform) a partir da minha experiência como **faixa preta de jiu-jítsu, professor e gestor da [Ocean Flow Studio Fitness](https://oceanflow.fitness/)**, em Maresias. Transformei a rotina de atendimento, aulas, alunos e caixa em uma plataforma **comercializável para academias**, testada diariamente na operação da minha própria academia.
+
+- **Jornada comercial:** a Giu atende no WhatsApp, Instagram e site, acompanha o interesse, encaminha para aulas experimentais e organiza leads por etapa. A jornada vai do primeiro “oi” até a oportunidade de matrícula.
+- **Operação:** alunos, matrículas, mensalidades, grade, check-in, evolução no jiu-jítsu e Muay Thai, loja/PDV, Pix e visões distintas para gestão, professores, operação e alunos.
+- **Produto e engenharia:** aplicação web, apps para [Android (Google Play)](https://play.google.com/store/apps/details?id=com.oceanflow.academia) e [iPhone/iPad (App Store)](https://apps.apple.com/br/app/ocean-flow/id6813960353), integração com dados e agentes, controle de acesso por perfil e publicação contínua. [Ver arquitetura pública ↗](https://github.com/AnselmoBorges/arquitetura_oceanflow)
+
+<details>
+<summary><strong>Entenda a jornada: do primeiro contato à matrícula</strong></summary>
+
+```mermaid
+flowchart LR
+    A["Contato no site ou mensagem"] --> B["Giu atende com contexto"]
+    B --> C["Aula experimental"]
+    C --> D["Lead acompanhado por etapa"]
+    D --> E["Matrícula e operação"]
+```
+
+Atendimento, aula experimental e acompanhamento por etapa se conectam ao sistema de gestão da academia.
+
+</details>
+
+### DiarIA · gestão de hospedagem orientada por dados
+
+Também desenvolvi em **2026** a [DiarIA](https://diaria.in), já em produção para organizar a operação dos meus imóveis de temporada. O produto reúne **agenda e estadias, reservas e canais, despesas e investimentos**, além de indicadores de **ocupação, diária líquida, margem de limpeza e participação por canal**. A proposta comercial é uma gestão por imóvel, com visibilidade para decisões de preço e operação. A DiarIA é a fonte operacional para o negócio; os sites de divulgação e reserva têm funções próprias.
 
 ## Projetos em destaque
 
@@ -28,11 +59,10 @@
 | **[dbt com MCP](https://github.com/AnselmoBorges/dbt_com_mcp)** | Laboratório que conecta dbt Core e DuckDB a um servidor MCP. |
 
 <details>
-<summary><strong>Explorar mais projetos: produto com agentes e integração multicloud</strong></summary>
+<summary><strong>Explorar mais: integração multicloud</strong></summary>
 
 <br>
 
-- **[Ocean Flow: arquitetura de produto](https://github.com/AnselmoBorges/arquitetura_oceanflow):** agentes, integrações e dados aplicados à gestão de um estúdio real.
 - **[Integração multicloud com Unity Catalog](https://github.com/AnselmoBorges/criptorescue):** estudo de federação entre Databricks, BigQuery, Redshift e Azure.
 
 </details>
