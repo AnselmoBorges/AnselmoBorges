@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Anselmo Borges — Staff Data Engineer</title>
+  <desc id="desc">Arquitetura de dados, Databricks e Agentic AI</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0B1220"/><stop offset="1" stop-color="#17243A"/></linearGradient>
+    <linearGradient id="a" x2="1"><stop stop-color="#2DD4BF"/><stop offset="1" stop-color="#60A5FA"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M 32 0 L 0 0 0 32" fill="none" stroke="#31435E" stroke-opacity=".38" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+  <rect x="46" y="48" width="8" height="202" rx="4" fill="url(#a)"/>
+  <text x="84" y="108" fill="#94A3B8" font-family="Arial,Helvetica,sans-serif" font-size="20" letter-spacing="3">DATA PLATFORMS  /  AI SYSTEMS</text>
+  <text x="80" y="174" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="700">Anselmo Borges</text>
+  <text x="84" y="219" fill="#5EEAD4" font-family="Arial,Helvetica,sans-serif" font-size="25">Staff Data Engineer · Azure Databricks · Agentic AI</text>
+  <path d="M910 89 L996 50 L1093 94 L1093 202 L996 247 L910 207 Z" fill="none" stroke="#2DD4BF" stroke-width="2" opacity=".75"/>
+  <path d="M910 89 L996 151 L1093 94 M996 151 L996 247 M910 207 L996 151 L1093 202" fill="none" stroke="#60A5FA" stroke-width="2" opacity=".65"/>
+  <circle cx="910" cy="89" r="7" fill="#2DD4BF"/><circle cx="996" cy="151" r="10" fill="#FB923C"/><circle cx="1093" cy="94" r="7" fill="#2DD4BF"/><circle cx="996" cy="247" r="7" fill="#2DD4BF"/>
+</svg>
