@@ -49,8 +49,9 @@ Na [Rescue Point](https://www.youtube.com/@RescuePoint), ensino engenharia de da
 **Novos vídeos do canal** · [ver todos no YouTube ↗](https://www.youtube.com/@RescuePoint/videos)
 
 <!-- YOUTUBE:START -->
-- [Databricks Asset Bundles + GitHub Actions: deploy de DEV a PRD na prática](https://www.youtube.com/watch?v=QjEB3Mkk1GQ)
-- [Databricks Job Activity no Azure Data Factory: quando usar e como integrar](https://www.youtube.com/watch?v=1cHmdhhkWb8)
+- [Criei uma IA que Atende e Agenda Aulas na Minha Academia \| OpenAI Realtime API](https://www.youtube.com/watch?v=njzJrfJF4jE) · 04/09/2026
+- [Integrando o Telegram com o Hermes Agent](https://www.youtube.com/watch?v=0SVTHaCVrtM) · 28/05/2026
+- [Instalando o Hermes Agent num Raspberry Pi 4](https://www.youtube.com/watch?v=lKYtbKDFwZw) · 21/05/2026
 <!-- YOUTUBE:END -->
 
 ## Experiência
