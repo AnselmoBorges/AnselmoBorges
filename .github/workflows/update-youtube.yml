@@ -1,0 +1,36 @@
+name: Atualizar vídeos da Rescue Point
+
+on:
+  schedule:
+    - cron: '23 10 * * 1'
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/update-youtube.yml'
+      - 'scripts/update_youtube.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-youtube-readme
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Consultar feed e atualizar README
+        run: python3 scripts/update_youtube.py
+      - name: Publicar somente quando houver vídeo novo
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "Sem novos vídeos"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Atualiza vídeos da Rescue Point no perfil"
+          git push
