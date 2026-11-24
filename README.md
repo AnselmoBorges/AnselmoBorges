@@ -1,45 +1,75 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img alt="Anselmo Borges — Staff Data Engineer, arquitetura de dados, Azure Databricks e Agentic AI" src="assets/banner-light.svg" width="100%">
+</picture>
+
 # Anselmo Borges
 
-### Staff Data Engineer · Arquitetura de Dados · Azure Databricks · Agentic AI
+**Staff Data Engineer** com mais de 15 anos entre engenharia de dados e infraestrutura. Transformo plataformas complexas em produtos de dados governados, eficientes e utilizáveis por pessoas e agentes de IA.
 
-Construo plataformas de dados governadas, eficientes e prontas para produção. Atuo há **mais de 15 anos** entre engenharia de dados e infraestrutura, hoje com foco em **Azure Databricks, arquitetura Lakehouse, FinOps e agentes de IA conectados a dados corporativos**.
+*Data platforms, governance, FinOps and AI agents — from architecture to production.*
 
-**Data platforms, governance, FinOps and AI agents — from architecture to production.**
+[**Projetos**](#projetos-em-destaque) · [**Rescue Point**](#rescue-point--ensino-aberto) · [**Experiência**](#experiência) · [**Contato**](#vamos-conversar)
 
-## Onde gero impacto
+## O que eu entrego
 
-- **Plataforma e arquitetura:** desenho e evolução de Lakehouses, integração de fontes, Unity Catalog, padrões de ingestão e transformação, segurança e governança.
-- **Performance e custo:** observabilidade de workloads e consumo, otimização de jobs e compute, políticas de cluster e decisões orientadas por custo operacional.
-- **Entrega e automação:** dbt, Spark, Databricks Asset Bundles, GitHub Actions e CI/CD para levar produtos de dados entre ambientes com qualidade e rastreabilidade.
-- **IA aplicada:** agentes com MCP, RAG e tool calling, integrados a sistemas e dados reais com atenção a autorização, confiabilidade e operação.
+| Plataforma de dados | Engenharia para produção | IA aplicada |
+| :--- | :--- | :--- |
+| Lakehouse, Azure Databricks, Unity Catalog, integração de fontes e governança. | Spark, dbt, CI/CD, observabilidade, performance e FinOps. | Agentes com MCP, RAG e tool calling sobre dados e sistemas corporativos. |
 
-## Projetos públicos selecionados
+## Projetos em destaque
 
-| Projeto | O que demonstra |
-| --- | --- |
-| [dbt Moderno na Prática](https://github.com/AnselmoBorges/dbt-moderno-na-pratica) | Trilha gratuita com laboratório executável: dbt Core, DuckDB, métricas, contratos, testes, governança, CI, FinOps e MCP. Material da [Rescue Point](https://www.youtube.com/@RescuePoint). |
-| [dbt + Databricks Asset Bundles](https://github.com/AnselmoBorges/pocdabdbt) | Pipeline Lakehouse com dbt, ambientes, GitHub Actions, Unity Catalog, Lakehouse Federation e documentação. Veja também a [aula de deploy DEV → PRD](https://www.youtube.com/watch?v=QjEB3Mkk1GQ). |
-| [Arquitetura e governança Databricks + Azure SQL](https://github.com/AnselmoBorges/dab) | Organização de ambientes DEV/PRD, recursos Azure, Unity Catalog e automação de ingestão. |
-| [dbt com MCP](https://github.com/AnselmoBorges/dbt_com_mcp) | Laboratório de integração entre dbt Core, DuckDB e servidor MCP. |
-| [Ocean Flow: arquitetura de produto](https://github.com/AnselmoBorges/arquitetura_oceanflow) | Aplicação de agentes, integrações e dados a um produto real de gestão de estúdio. |
-| [Integração multicloud com Unity Catalog](https://github.com/AnselmoBorges/criptorescue) | Estudo de federação e integração entre Databricks, BigQuery, Redshift e Azure. |
+| Projeto | Arquitetura e resultado demonstrado |
+| :--- | :--- |
+| **[dbt Moderno na Prática](https://github.com/AnselmoBorges/dbt-moderno-na-pratica)** | Curso aberto com laboratório executável: dbt Core, DuckDB, métricas, testes, contratos, governança, CI, FinOps e MCP. |
+| **[dbt + Databricks Asset Bundles](https://github.com/AnselmoBorges/pocdabdbt)** | Pipeline Lakehouse com dbt, GitHub Actions, Unity Catalog e Lakehouse Federation. [Ver aula de deploy DEV → PRD ↗](https://www.youtube.com/watch?v=QjEB3Mkk1GQ) |
+| **[Arquitetura Databricks + Azure SQL](https://github.com/AnselmoBorges/dab)** | Automação de ingestão, recursos Azure e organização da governança entre ambientes DEV/PRD. |
+| **[dbt com MCP](https://github.com/AnselmoBorges/dbt_com_mcp)** | Laboratório que conecta dbt Core e DuckDB a um servidor MCP. |
 
-## Ensino gratuito: Rescue Point
+<details>
+<summary><strong>Explorar mais projetos: produto com agentes e integração multicloud</strong></summary>
 
-Compartilho o que construo em vídeos e laboratórios abertos no [canal Rescue Point no YouTube](https://www.youtube.com/@RescuePoint). O conteúdo cobre engenharia de dados, Databricks, dbt, Azure, Apache NiFi, automação e arquitetura aplicada.
+<br>
 
-- [Série prática de dbt Core](https://www.youtube.com/watch?v=ZAgoqhlR95g&list=PLeblJhqzZe1rvFehI3MsGXmrNch4zQqg8) — série original, aprofundada no novo [repositório e laboratório](https://github.com/AnselmoBorges/dbt-moderno-na-pratica).
-- [Databricks Asset Bundles + GitHub Actions](https://www.youtube.com/watch?v=QjEB3Mkk1GQ) — deploy entre ambientes, com um [projeto público relacionado](https://github.com/AnselmoBorges/pocdabdbt).
-- [Conteúdos e artigos da Rescue Point](https://rescuepoint.com.br/) — vídeos, tutoriais e materiais sobre dados e IA.
+- **[Ocean Flow: arquitetura de produto](https://github.com/AnselmoBorges/arquitetura_oceanflow):** agentes, integrações e dados aplicados à gestão de um estúdio real.
+- **[Integração multicloud com Unity Catalog](https://github.com/AnselmoBorges/criptorescue):** estudo de federação entre Databricks, BigQuery, Redshift e Azure.
+
+</details>
+
+## Rescue Point · ensino aberto
+
+Na [Rescue Point](https://www.youtube.com/@RescuePoint), ensino engenharia de dados gratuitamente com demonstrações de Databricks, dbt, Azure, Apache NiFi e arquitetura aplicada. Os repositórios acima dão contexto e material para praticar.
+
+| dbt Core na prática | Databricks Asset Bundles + GitHub Actions |
+| :---: | :---: |
+| [![Série gratuita de dbt Core no canal Rescue Point](https://img.youtube.com/vi/ZAgoqhlR95g/hqdefault.jpg)](https://www.youtube.com/watch?v=ZAgoqhlR95g&list=PLeblJhqzZe1rvFehI3MsGXmrNch4zQqg8) | [![Deploy entre DEV e PRD com Databricks Asset Bundles](https://img.youtube.com/vi/QjEB3Mkk1GQ/hqdefault.jpg)](https://www.youtube.com/watch?v=QjEB3Mkk1GQ) |
+| [Série original ↗](https://www.youtube.com/watch?v=ZAgoqhlR95g&list=PLeblJhqzZe1rvFehI3MsGXmrNch4zQqg8) · [novo laboratório ↗](https://github.com/AnselmoBorges/dbt-moderno-na-pratica) | [Vídeo ↗](https://www.youtube.com/watch?v=QjEB3Mkk1GQ) · [código relacionado ↗](https://github.com/AnselmoBorges/pocdabdbt) |
+
+**Novos vídeos do canal** · [ver todos no YouTube ↗](https://www.youtube.com/@RescuePoint/videos)
+
+<!-- YOUTUBE:START -->
+- [Databricks Asset Bundles + GitHub Actions: deploy de DEV a PRD na prática](https://www.youtube.com/watch?v=QjEB3Mkk1GQ)
+- [Databricks Job Activity no Azure Data Factory: quando usar e como integrar](https://www.youtube.com/watch?v=1cHmdhhkWb8)
+<!-- YOUTUBE:END -->
 
 ## Experiência
 
-Atualmente atuo na **CS Global IT Consulting** com engenharia de dados e Agentic AI. Antes, fui **Staff / Sr. Staff Data Engineer na Blip**, liderando evolução da plataforma Azure Databricks, governança, eficiência operacional e FinOps. Minha trajetória também inclui projetos em organizações como **Banco Sofisa, Porto, XP, Santander e SPC Brasil**.
+Hoje atuo na **CS Global IT Consulting** com engenharia de dados e Agentic AI. Na **Blip**, fui Staff / Sr. Staff Data Engineer, liderando a evolução da plataforma Azure Databricks, governança, eficiência operacional e FinOps. Minha trajetória inclui **Banco Sofisa, Porto, XP, Santander e SPC Brasil**.
 
-**Tecnologias centrais:** Azure · Databricks · Spark / PySpark · Delta Lake · Unity Catalog · ADF · dbt · SQL · Python · GitHub Actions · Linux · MCP · RAG.
+<details>
+<summary><strong>Stack, credenciais e áreas de atuação</strong></summary>
+
+<br>
+
+**Stack:** Azure · Databricks · Spark / PySpark · Delta Lake · Unity Catalog · ADF · dbt · SQL · Python · GitHub Actions · Linux · MCP · RAG.
 
 **Formação contínua:** Academy Accreditation – Azure Databricks Platform Architect (válida até jul/2027); Applied AI Foundations, Agents and Workflows e AI Foundations (OpenAI).
 
+**Foco:** arquitetura, segurança, governança, observabilidade, custo e operação de produtos de dados e IA.
+
+</details>
+
 ## Vamos conversar
 
-Se sua equipe precisa evoluir uma plataforma de dados, reduzir custo de operação ou colocar agentes de IA em produção sobre dados governados, fale comigo pelo [LinkedIn](https://www.linkedin.com/in/anselmoborges/).
+Precisa evoluir sua plataforma de dados, otimizar workloads ou conectar agentes de IA a dados governados? [**Converse comigo no LinkedIn ↗**](https://www.linkedin.com/in/anselmoborges/) · [**Conheça a Rescue Point ↗**](https://rescuepoint.com.br/).
