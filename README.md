@@ -10,7 +10,7 @@
 
 *Data platforms, governance, FinOps and AI agents — from architecture to production.*
 
-[**Produtos próprios**](#produtos-próprios-em-produção--2026) · [**Projetos**](#projetos-em-destaque) · [**Rescue Point**](#rescue-point--ensino-aberto) · [**Experiência**](#experiência) · [**Contato**](#vamos-conversar)
+[**Produtos próprios**](#produtos-próprios-em-produção--2026) · [**Cases**](#cases-públicos) · [**Projetos**](#projetos-em-destaque) · [**Rescue Point**](#rescue-point--ensino-aberto) · [**Experiência**](#experiência) · [**Contato**](#vamos-conversar)
 
 ## O que eu entrego
 
@@ -49,6 +49,14 @@ Atendimento, aula experimental e acompanhamento por etapa se conectam ao sistema
 
 Também desenvolvi em **2026** a [DiarIA](https://diaria.in), já em produção para organizar a operação dos meus imóveis de temporada. O produto reúne **agenda e estadias, reservas e canais, despesas e investimentos**, além de indicadores de **ocupação, diária líquida, margem de limpeza e participação por canal**. A proposta comercial é uma gestão por imóvel, com visibilidade para decisões de preço e operação. A DiarIA é a fonte operacional para o negócio; os sites de divulgação e reserva têm funções próprias.
 
+## Cases públicos
+
+| Case | Evidência |
+| :--- | :--- |
+| **[OceanFlow · produto para academias](cases/oceanflow.md)** | Sete meses de desenvolvimento, operação real, apps nas duas lojas e [frame do vídeo de apresentação](cases/oceanflow.md). |
+| **[DiarIA · gestão de hospedagem](cases/diaria.md)** | Produto em operação para estadias, despesas, canais e indicadores por imóvel. |
+| **[Multicloud com Unity Catalog · case Porto](cases/multicloud-porto.md)** | POC em contas próprias, [código público](https://github.com/AnselmoBorges/criptorescue) e [vídeo técnico na Rescue Point](https://www.youtube.com/watch?v=LxYPpIu7TEQ). |
+
 ## Projetos em destaque
 
 | Projeto | Arquitetura e resultado demonstrado |
@@ -57,15 +65,6 @@ Também desenvolvi em **2026** a [DiarIA](https://diaria.in), já em produção 
 | **[dbt + Databricks Asset Bundles](https://github.com/AnselmoBorges/pocdabdbt)** | Pipeline Lakehouse com dbt, GitHub Actions, Unity Catalog e Lakehouse Federation. [Ver aula de deploy DEV → PRD ↗](https://www.youtube.com/watch?v=QjEB3Mkk1GQ) |
 | **[Arquitetura Databricks + Azure SQL](https://github.com/AnselmoBorges/dab)** | Automação de ingestão, recursos Azure e organização da governança entre ambientes DEV/PRD. |
 | **[dbt com MCP](https://github.com/AnselmoBorges/dbt_com_mcp)** | Laboratório que conecta dbt Core e DuckDB a um servidor MCP. |
-
-<details>
-<summary><strong>Explorar mais: integração multicloud</strong></summary>
-
-<br>
-
-- **[Integração multicloud com Unity Catalog](https://github.com/AnselmoBorges/criptorescue):** estudo de federação entre Databricks, BigQuery, Redshift e Azure.
-
-</details>
 
 ## Rescue Point · ensino aberto
 
